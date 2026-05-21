@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora El Salvador | El Pulgarcito de América</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🇸🇻 ExploraSV</div>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#galeria">Destinos</a>
+            <a href="#informacion">Info</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Descubre El Salvador</h1>
+            <p>Impresionantes volcanes, playas de clase mundial y una cultura vibrante te esperan.</p>
+            <a href="#galeria" class="btn-hero">Empezar Aventura</a>
+        </div>
+    </section>
+
+    <section id="galeria" class="destinos-section">
+        <h2>Destinos Destacados</h2>
+        <div class="grid-galeria">
+            <div class="tarjeta" data-destino="Volcán de Santa Ana" data-info="También conocido como Ilamatepec, es el volcán más alto de El Salvador. Su caminata ofrece una vista impresionante a una laguna de color turquesa en su cráter.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Volcán de Santa Ana</h3>
+                    <p>Aventura y vistas panorámicas en el cráter de azufre.</p>
+                </div>
+            </div>
+            <div class="tarjeta" data-destino="Playa El Tunco" data-info="Fundada como la meca del surf en Centroamérica. Famosa por su icónica formación rocosa, olas perfectas y una vida nocturna inigualable.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1537145717904-8b0126780c10?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Playa El Tunco</h3>
+                    <p>Surf de clase mundial y los mejores atardeceres del Pacífico.</p>
+                </div>
+            </div>
+            <div class="tarjeta" data-destino="Lago de Coatepeque" data-info="Un hermoso lago de origen volcánico. En ciertas épocas del año, sus aguas cambian mágicamente a un color azul turquesa brillante.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Lago de Coatepeque</h3>
+                    <p>Una de las maravillas naturales más hermosas del mundo.</p>
+                </div>
+            </div>
+            <div class="tarjeta" data-destino="Ruta de las Flores" data-info="Un recorrido encantador a través de pueblos coloniales como Juayúa y Ataco, conocidos por su clima fresco, cafetales y coloridos murales.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1585938338392-50a312222c2d?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Ruta de las Flores</h3>
+                    <p>Cultura, gastronomía local y paisajes pintorescos de montaña.</p>
+                </div>
+            </div>
+            <div class="tarjeta" data-destino="Joya de Cerén" data-info="Conocida como la Pompeya de América, es un sitio arqueológico Patrimonio de la Humanidad que muestra la vida cotidiana maya sepultada por ceniza volcánica.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Joya de Cerén</h3>
+                    <p>Patrimonio de la Humanidad: Ventana arqueológica al pasado prehispánico.</p>
+                </div>
+            </div>
+            <div class="tarjeta" data-destino="Centro Histórico de SS" data-info="El corazón administrativo e histórico nacional, hogar del imponente Palacio Nacional, el Teatro Nacional y la emblemática e innovadora Iglesia El Rosario.">
+                <div class="tarjeta-img" style="background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="tarjeta-body">
+                    <h3>Centro Histórico</h3>
+                    <p>Arquitectura, cultura e historia reviviendo en la capital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="informacion" class="info-section">
+        <h2>Datos del País</h2>
+        <div class="info-container">
+            <div class="info-col">
+                <h3>Gastronomía</h3>
+                <p>No puedes irte sin probar las <strong>pupusas</strong>, nuestro plato nacional por excelencia hecho de maíz o arroz, relleno de queso, chicharrón o frijoles.</p>
+            </div>
+            <div class="info-col">
+                <h3>Clima</h3>
+                <p>Tropical todo el año. Contamos con dos estaciones bien definidas: la época seca (de noviembre a abril) y la época lluviosa (de mayo a octubre).</p>
+            </div>
+            <div class="info-col">
+                <h3>Moneda Oficial</h3>
+                <p>El Salvador utiliza de forma legal el Dólar Estadounidense ($ USD) y el Bitcoin (BTC), facilitando las transacciones a turistas internacionales.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Explora El Salvador. Diseñado con pasión por la ciberseguridad y el desarrollo web.</p>
+    </footer>
+
+    <div id="modal-destino" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-titulo">Destino</h2>
+            <p id="modal-descripcion">Descripción aquí...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
